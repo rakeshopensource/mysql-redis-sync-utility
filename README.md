@@ -1,5 +1,9 @@
-# Installation mysql-replication
-sudo pip install mysql-replication
+# Installation
 
-# Installation redis client python
+```sh
+sudo pip install mysql-replication
+```
+
+```sh
 sudo pip install redis
+```
