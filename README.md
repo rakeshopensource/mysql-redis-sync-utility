@@ -6,6 +6,15 @@ $ sudo easy_install pip
 $ sudo pip install mysql-replication
 $ sudo pip install redis
 ```
+#MySQL server settings (/etc/mysql/my.cnf)
+```sh
+[mysqld]
+server-id        = 1
+log_bin          = /var/log/mysql/mysql-bin.log
+expire_logs_days = 10
+max_binlog_size  = 100M
+binlog-format    = row 
+```
 
 #Example
 ```sh
